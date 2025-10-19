@@ -1,4 +1,4 @@
 import "./style.css";
-import { greeting } from "./greeting";
+import Carousel from "./Carousel";
 
-console.log(greeting);
+new Carousel('myCarousel', 5000);
